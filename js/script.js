@@ -7,7 +7,7 @@ const shopButton  = document.getElementById('button-shop')
 
 button.addEventListener('shop')
 
-   let shopPrice;
+   let totalTicketPrice;
    
    totalTicketPrice = totalNumberOfKm.value * ticketPriceForKm;
   
@@ -18,3 +18,6 @@ button.addEventListener('shop')
    } else if (ageSinglePassenger.value >= 65) {
       totalTicketPrice = totalTicketPrice - (totalTicketPrice * 0.333);
    }
+
+
+   document.getElementById('totalPriceTicket').innerHTML = totalTicketPrice.toFixed(2) + "&euro;";
