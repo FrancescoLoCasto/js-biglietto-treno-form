@@ -16,56 +16,61 @@
    </head>
    <body>
 
-
       
-      <form>
 
-         <div class="container">
-            <div class="row">
-               <div class="col-12 text-center mb-4">
-                  <div class="first-group">
-                     <label for="totalKm">Chilometri totali da percorrere:</label>
-                     <input type="number" name="kmt" id="totalKm">
+      <div class="train-logo"></div>
+
+      <div class="white-block">
+
+         <form>
+            
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 text-center mb-4">
+                     <div class="first-group">
+                        <label for="totalKm">Chilometri totali da percorrere:</label>
+                        <input type="number" name="kmt" id="totalKm">
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-
-
-         <div class="container">
-            <div class="row">
-               <div class="col-12 text-center mb-4">
-                  <div class="second-group">
-                     <label for="passengerAge">Qual'è la tua età?</label>
-                     <input type="number" name="agePass" id="passengerAge">
+            
+            
+            <div class="container">
+               <div class="row">
+                  <div class="col-12 text-center mb-4">
+                     <div class="second-group">
+                        <label for="passengerAge">Qual'è la tua età?</label>
+                        <input type="number" name="agePass" id="passengerAge">
+                     </div>
                   </div>
                </div>
             </div>
-         </div>
-
-
-      </form>
-
-      <div class="container">
-         <div class="row">
-            <div class="col-12 text-center mb-4">
-               <div class="button-group">
-                  <button id="button-shop" class="btn mb-4 bg-danger">
-                     Acquista!
+            
+            
+         </form>
+         
+         <div class="container">
+            <div class="row">
+               <div class="col-12 text-center mb-4">
+                  <div class="button-group">
+                     <button id="button-shop" class="btn mb-4 bg-danger">
+                     Calcola il costo
                   </button>
-            
+                  
                   <h3>Costo totale del biglietto:</h3>
-            
+                  
                   <span id="totalPriceTicket"></span>
                </div>
             </div>
          </div>
       </div>
-
-
-
+   </div>
+      
+      
+      
       <!-- JS Script -->
       <script src="./js/script.js"></script>
    </body>
-
-</html>
+   
+   </html>
