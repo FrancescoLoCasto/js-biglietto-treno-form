@@ -12,7 +12,7 @@ shopButton.addEventListener('click', function() {
    totalTicketPrice = totalNumberOfKm.value * ticketPriceForKm;
 
 
-   if (ageSinglePassenger.value < 19) {
+   if (ageSinglePassenger.value < 18) {
       totalTicketPrice = totalTicketPrice - (totalTicketPrice * 0.175);
    } else if (ageSinglePassenger.value >= 65) {
       totalTicketPrice = totalTicketPrice - (totalTicketPrice * 0.333);
