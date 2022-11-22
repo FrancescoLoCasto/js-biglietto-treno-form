@@ -5,7 +5,7 @@ let ageSinglePassenger = document.getElementById('passengerAge')
 const ticketPriceForKm = 0.2762
 const shopButton  = document.getElementById('button-shop')
 
-button.addEventListener('click', function() {
+shopButton.addEventListener('click', function() {
 
    let totalTicketPrice;
    
