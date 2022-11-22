@@ -19,5 +19,6 @@ button.addEventListener('shop')
       totalTicketPrice = totalTicketPrice - (totalTicketPrice * 0.333);
    }
 
+   
 
    document.getElementById('totalPriceTicket').innerHTML = totalTicketPrice.toFixed(2) + "&euro;";
