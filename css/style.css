@@ -6,11 +6,21 @@ body{
 
 .white-block{
    width: 500px;
-   margin-top: 18rem;
+   margin-top: 13rem;
    margin-left: 45rem;
    background-color: white;
    padding: 5rem;
    border-radius: 2rem;
 
+}
+
+.train-logo{
+   margin-left: 45%;
+   width: 200px;
+   height: 100px;
+}
+
+.train-logo img{
+   height: 100%;
 }
 
